@@ -2,6 +2,7 @@ framework: jest
 preRun:
      command:
         - yarn install
+        - yarn run compile
 postMerge:
   pattern: 
     - "./test/**/*.test.ts"
