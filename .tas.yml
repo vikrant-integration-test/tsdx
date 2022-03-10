@@ -4,8 +4,8 @@ preRun:
         - yarn install
 postMerge:
   pattern: 
-    -"./test/unit/*.ts"
-    - "./test/**/*.test.ts"
+    - "./test/unit/*.ts"
+
 preMerge:
   pattern:
     - "./test/**/*.test.ts"
