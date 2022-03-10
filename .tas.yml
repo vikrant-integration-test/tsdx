@@ -8,7 +8,7 @@ postMerge:
 
 preMerge:
   pattern:
-    - "./test/**/*.test.ts"
+    - "./test/unit/utils-safePackageName.test.ts"
 postRun:
      command:
         - yarn --version
